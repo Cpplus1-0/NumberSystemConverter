@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1611670033 source:c:\users\naimul hp spectre\cpp_projects\numbersystemconverter\main.cpp
+	<iostream>
+	<string>
+	<cmath>
+
