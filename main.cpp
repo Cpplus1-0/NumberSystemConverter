@@ -21,6 +21,12 @@ int main()
     for(cin >> choice; choice < 1 || choice > 5; cin >> choice)
         cout << "Sorry! The input you have entered is invalid. Please enter a choice between [1,5]. " << endl << endl << "************************************************************************************" << endl << endl << "(1) Binary (2) Octal (3) Hexadecimal (4) Decimal (5) Custom " << endl << endl << "Enter your choice: ";
 
+    if(choice != 1) { // Removable Block after other number system conversions have been implemented.
+        cout << "Sorry! Only Binary Number conversions is allowed for now." << endl;
+        cout << "Please try running the program again with '1' as your 1st input." << endl << endl;
+        return 1;
+    }
+	
     cout << endl;
 
     const char * system[5] = {"binary", "decimal", "octal", "hexadecimal", "custom"};
